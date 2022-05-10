@@ -1,0 +1,19 @@
+###
+
+// sending name a s payload so that jwt could
+// be received in the form of "Header.Payload.Signature"
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username" : "kyle222"
+}
+
+
+//step 2: 
+// sending this token back so that 
+//only this name's value could be populate
+###
+
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia3lsZTIyMiIsImlhdCI6MTY1MjE4ODMxOX0.XsnhhP9gpOe2BjexCd6Fw5m_inyZil5ylvAjV7rxhdI
