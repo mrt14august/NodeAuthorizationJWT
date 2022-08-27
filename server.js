@@ -7,11 +7,11 @@ app.use(express.json());
 
 const posts = [
   {
-    username: "james",
+    username: "Mritunjay",
     title: "post1",
   },
   {
-    username: "kyle",
+    username: "Mritunjay Mishra",
     title: "post2",
   },
 ];
